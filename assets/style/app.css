@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+/* Standar */
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem = 10px*/
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+nav{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding: 2rem 0rem 0 2rem;
+  margin-bottom: 6.4rem;
+}
+
+.left{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.left img{
+  height: 23.8rem;
+  width: 28.68;
+  left: 10.9rem;
+  top: 4.4rem;
+}
+
+.right div h1{
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 7.10rem;
+  margin: 0 0.2rem 3rem 2rem;
+}
+
+.right div p{
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 1.8rem;
+  width: 32.8rem;
+  margin: 0 2.3rem 6rem 2.4rem;
+}
+
+.right button{
+  background-color: #000;
+  color: #fff;
+  width: 21.6rem;
+  height: 6.8rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 13.5rem 15.5rem 2.4rem;
+}
+
+@media(min-width: 768px){
+  body{
+    height: 100vh;
+  }
+  nav{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 2.4rem;
+    padding: 2rem 0rem 0 2rem;
+    margin-bottom: 0rem;
+  }
+  section{
+  height: 95vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-content: center;
+  }
+
+  .left img{
+    height: 44.74rem;
+    width: 53.92rem;
+    left: 7.7rem;
+    top: 26.5rem;
+  }
+
+  .right div{
+    height: 50vh;
+    display: grid;
+    align-content: center;
+  }
+
+  .right div h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: 9.47rem;
+    margin: 0 0 3.6rem 0;
+  }
+
+  .right div p{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 2.4rem;
+    width: 38.2rem;
+    margin: 0 0 6.4rem 0;
+  }
+
+  .right button{
+    background-color: #000;
+    color: #fff;
+    width: 21.6rem;
+    height: 6.8rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 0 0 0;
+  }
+}
+
